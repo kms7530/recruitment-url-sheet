@@ -1,7 +1,6 @@
 ---
 name: recruitment-url-sheet
-description: 채용공고 URL(직행, 원티드, 기타 JobPosting 구조화 데이터 지원)를 자동 분석해 Google Spreadsheet 시트1에 누적 저장한다. 사용 시점: 사용자가 공고 링크를 주며 시트에 정리/추가/중복제거를 요청할 때, 특히 IT 공고만 필터링해 저장할 때.
-metadata: {"openclaw":{"emoji":"🧲","homepage":"https://github.com/googleworkspace/cli","requires":{"bins":["gws"]},"install":[{"id":"node","kind":"node","package":"@googleworkspace/cli","bins":["gws"],"label":"Install Google Workspace CLI (npm)"}]}}
+description: Parse recruitment URLs (zighang, wanted, and generic JobPosting pages) and append normalized rows to Google Sheets Sheet1 with duplicate URL skipping and IT-only filtering.
 ---
 
 # Recruitment URL Sheet
